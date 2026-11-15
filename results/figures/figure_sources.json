@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "fig1_detection_depth": [
+      "results/novel/e2_detection_depth/per_round.csv"
+    ],
+    "fig2_search_cost_depth": [
+      "results/novel/e3_search/runs.csv"
+    ],
+    "fig3_capacity_vs_rounds": [
+      "results/novel/e2_detection_depth/per_round.csv"
+    ],
+    "fig5_spectral_vs_bias": [
+      "results/novel/e1_speck3264/weighted_scores.csv"
+    ],
+    "fig7_adaptive_vs_fixed": [
+      "results/phase5/simon32_main/summary.csv"
+    ],
+    "fig8_runtime": [
+      "results/phase5/simon32_main/runs.csv"
+    ]
+  },
+  "skipped": {
+    "fig4_dbitnet_vs_scores": "missing: results\\novel\\e1_speck3264\\e1_table.csv, results\\novel\\e1_speck3264\\e1_analysis.json",
+    "fig6_correlation_cis": "missing: results\\novel\\e1_speck3264\\e1_analysis.json"
+  }
+}

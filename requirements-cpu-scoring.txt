@@ -1,0 +1,6 @@
+# Enough for Phases 1, 3a, 4 and 5a (no neural training).
+numpy<2
+scipy
+pandas
+matplotlib
+pytest

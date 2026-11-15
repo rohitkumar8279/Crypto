@@ -1,0 +1,490 @@
+{
+  "k": 10,
+  "budget": 324000,
+  "spent": 162800,
+  "budget_respected": true,
+  "shortlist_correct": true,
+  "spearman_samples_vs_gap": 0.9600231840998361,
+  "per_candidate": [
+    {
+      "exact": 0.07383375236267464,
+      "gap_to_kth": 0.005969291264348531,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.07291324587477371,
+      "gap_to_kth": 0.005048784776447601,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.07179636363871267,
+      "gap_to_kth": 0.003931902540386556,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.07119800330982629,
+      "gap_to_kth": 0.0033335422115001734,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.07101026441222497,
+      "gap_to_kth": 0.003145803313898854,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.07089931934285393,
+      "gap_to_kth": 0.003034858244527816,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.07042196808635537,
+      "gap_to_kth": 0.0025575069880292567,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06924223844020616,
+      "gap_to_kth": 0.0013777773418800487,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06822933041887758,
+      "gap_to_kth": 0.00036486932055146415,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06786446109832611,
+      "gap_to_kth": 0.0,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06617205305362645,
+      "gap_to_kth": 0.001692408044699667,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06591031965735983,
+      "gap_to_kth": 0.001954141440966284,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06411475024780167,
+      "gap_to_kth": 0.003749710850524446,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06366345223131495,
+      "gap_to_kth": 0.004201008867011163,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06335226291845014,
+      "gap_to_kth": 0.00451219817987597,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06168307085460534,
+      "gap_to_kth": 0.006181390243720775,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.06001850832985406,
+      "gap_to_kth": 0.007845952768472053,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.05926632363250922,
+      "gap_to_kth": 0.00859813746581689,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.05500920492393199,
+      "gap_to_kth": 0.01285525617439412,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.05440118801099533,
+      "gap_to_kth": 0.01346327308733078,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.05313416350567185,
+      "gap_to_kth": 0.014730297592654262,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.05127069683350277,
+      "gap_to_kth": 0.01659376426482334,
+      "samples": 4000,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.05025077662908356,
+      "gap_to_kth": 0.017613684469242552,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.049926285977046986,
+      "gap_to_kth": 0.017938175121279126,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.049167194396352365,
+      "gap_to_kth": 0.018697266701973747,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.048639780829555196,
+      "gap_to_kth": 0.019224680268770916,
+      "samples": 4000,
+      "status": "active"
+    },
+    {
+      "exact": 0.04635161571007851,
+      "gap_to_kth": 0.021512845388247603,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.045500462862992364,
+      "gap_to_kth": 0.02236399823533375,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.04363820337909455,
+      "gap_to_kth": 0.024226257719231564,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.04343404514934457,
+      "gap_to_kth": 0.024430415948981543,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.0434087370060286,
+      "gap_to_kth": 0.024455724092297515,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.0423786465216098,
+      "gap_to_kth": 0.02548581457671631,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.042364871032305046,
+      "gap_to_kth": 0.025499590066021066,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.04226585526728535,
+      "gap_to_kth": 0.02559860583104076,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.040954105264546514,
+      "gap_to_kth": 0.026910355833779598,
+      "samples": 3200,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.04068915013440175,
+      "gap_to_kth": 0.027175310963924365,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.03896562230744721,
+      "gap_to_kth": 0.0288988387908789,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.035512499969192035,
+      "gap_to_kth": 0.03235196112913408,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.035033400230141815,
+      "gap_to_kth": 0.0328310608681843,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.03341331547687479,
+      "gap_to_kth": 0.03445114562145132,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.03332763713289458,
+      "gap_to_kth": 0.034536823965431535,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.03273986025529671,
+      "gap_to_kth": 0.0351246008430294,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.0322778539229861,
+      "gap_to_kth": 0.03558660717534001,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.03075401710957587,
+      "gap_to_kth": 0.03711044398875024,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.027590067471960966,
+      "gap_to_kth": 0.040274393626365146,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.026997151007430387,
+      "gap_to_kth": 0.040867310090895725,
+      "samples": 1600,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.02565089313999136,
+      "gap_to_kth": 0.04221356795833475,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.0241991842868102,
+      "gap_to_kth": 0.04366527681151591,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.0236419707000341,
+      "gap_to_kth": 0.044222490398292014,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.023633543400551044,
+      "gap_to_kth": 0.04423091769777507,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.022502668892279643,
+      "gap_to_kth": 0.04536179220604647,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.022322768132538834,
+      "gap_to_kth": 0.04554169296578728,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.022227345613289373,
+      "gap_to_kth": 0.04563711548503674,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.02220319884624758,
+      "gap_to_kth": 0.04566126225207853,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.020059819340705803,
+      "gap_to_kth": 0.04780464175762031,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.019211596472812814,
+      "gap_to_kth": 0.0486528646255133,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.01797215402915492,
+      "gap_to_kth": 0.04989230706917119,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.01750549687662123,
+      "gap_to_kth": 0.05035896422170488,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.016941479022106604,
+      "gap_to_kth": 0.05092298207621951,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.016768298992092784,
+      "gap_to_kth": 0.05109616210623333,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.016380957914686495,
+      "gap_to_kth": 0.05148350318363962,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.01592480349714792,
+      "gap_to_kth": 0.05193965760117819,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.013785800739956666,
+      "gap_to_kth": 0.054078660358369446,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.012540224931686828,
+      "gap_to_kth": 0.055324236166639285,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.011762685585045257,
+      "gap_to_kth": 0.056101775513280855,
+      "samples": 800,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.010949961070529451,
+      "gap_to_kth": 0.05691450002779666,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.009464788675069086,
+      "gap_to_kth": 0.058399672423257026,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.008875940543085714,
+      "gap_to_kth": 0.0589885205552404,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.008264142627949556,
+      "gap_to_kth": 0.059600318470376557,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.007799826830742845,
+      "gap_to_kth": 0.06006463426758327,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.007035057654975196,
+      "gap_to_kth": 0.060829403443350916,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.005479840036303446,
+      "gap_to_kth": 0.062384621062022666,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.004001725888318153,
+      "gap_to_kth": 0.06386273521000796,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.002597709071427645,
+      "gap_to_kth": 0.06526675202689847,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.002547674913703696,
+      "gap_to_kth": 0.06531678618462242,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.001365075752130518,
+      "gap_to_kth": 0.0664993853461956,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.0008689185975376823,
+      "gap_to_kth": 0.06699554250078843,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 0.0003079366154290497,
+      "gap_to_kth": 0.06755652448289706,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 6.824231407703829e-05,
+      "gap_to_kth": 0.06779621878424907,
+      "samples": 400,
+      "status": "eliminated"
+    },
+    {
+      "exact": 5.2077141125539406e-06,
+      "gap_to_kth": 0.06785925338421356,
+      "samples": 400,
+      "status": "eliminated"
+    }
+  ]
+}

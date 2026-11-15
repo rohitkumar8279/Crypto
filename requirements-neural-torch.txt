@@ -1,0 +1,6 @@
+# Novel experiments E1 (DBitNet PyTorch port) and the port regression tests.
+# CPU wheel:  pip install torch --index-url https://download.pytorch.org/whl/cpu
+# GPU/Colab:  the default torch wheel (CUDA) works; the port uses CUDA automatically.
+-r requirements-cpu-scoring.txt
+torch>=2.2
+h5py

@@ -1,0 +1,31 @@
+skip speck3264 seed 1 (done)
+skip speck3264 seed 2 (done)
+skip speck3264 seed 3 (done)
+{'cipher': 'simon3264', 'seed': 1, 'method': 'autond_bias', 'highest_round': 7, 'pool_size': 108, 'search_encryptions': 31162000, 'seconds': 63.9246459, 'rank_known_best': 1, 'top5': '0x2000 0x8000 0x40 0x1 0x8', 'top16_distinct_orbits': 2}
+{'cipher': 'simon3264', 'seed': 1, 'method': 'spectral_deg1_ablation', 'highest_round': 8, 'pool_size': 121, 'search_encryptions': 36762000, 'seconds': 138.01198090000003, 'rank_known_best': 1, 'top5': '0x4 0x8 0x1 0x4000 0x2000', 'top16_distinct_orbits': 1}
+{'cipher': 'simon3264', 'seed': 1, 'method': 'spectral', 'highest_round': 8, 'pool_size': 137, 'search_encryptions': 37482000, 'seconds': 153.21453729999996, 'rank_known_best': 1, 'top5': '0x10 0x100 0x8000 0x4 0x2', 'top16_distinct_orbits': 1}
+{'cipher': 'simon3264', 'seed': 2, 'method': 'autond_bias', 'highest_round': 7, 'pool_size': 103, 'search_encryptions': 30776000, 'seconds': 76.62236920000004, 'rank_known_best': 1, 'top5': '0x2000 0x800 0x20 0x10 0x200', 'top16_distinct_orbits': 2}
+{'cipher': 'simon3264', 'seed': 2, 'method': 'spectral_deg1_ablation', 'highest_round': 9, 'pool_size': 154, 'search_encryptions': 41641000, 'seconds': 162.7406671, 'rank_known_best': 1, 'top5': '0x20 0x4 0x4000 0x202080 0x1000', 'top16_distinct_orbits': 5}
+{'cipher': 'simon3264', 'seed': 2, 'method': 'spectral', 'highest_round': 8, 'pool_size': 135, 'search_encryptions': 37552000, 'seconds': 120.15340479999998, 'rank_known_best': 1, 'top5': '0x1 0x2 0x8 0x20 0x200', 'top16_distinct_orbits': 2}
+{'cipher': 'simon3264', 'seed': 3, 'method': 'autond_bias', 'highest_round': 7, 'pool_size': 111, 'search_encryptions': 30928000, 'seconds': 74.45735460000003, 'rank_known_best': 1, 'top5': '0x20 0x80 0x10 0x100 0x8', 'top16_distinct_orbits': 2}
+{'cipher': 'simon3264', 'seed': 3, 'method': 'spectral_deg1_ablation', 'highest_round': 8, 'pool_size': 130, 'search_encryptions': 37071000, 'seconds': 155.44667720000007, 'rank_known_best': 1, 'top5': '0x2 0x8000 0x80 0x200 0x4000', 'top16_distinct_orbits': 2}
+{'cipher': 'simon3264', 'seed': 3, 'method': 'spectral', 'highest_round': 8, 'pool_size': 136, 'search_encryptions': 37952000, 'seconds': 149.06149459999995, 'rank_known_best': 1, 'top5': '0x2 0x80 0x200 0x40 0x1000', 'top16_distinct_orbits': 2}
+   cipher  seed                 method  highest_round  pool_size  search_encryptions    seconds  rank_known_best recovered_from_log  top16_distinct_orbits
+speck3264     1            autond_bias              5        104            24816000  39.608341                1               True                    NaN
+speck3264     1 spectral_deg1_ablation              6        133            28059000  82.587985                1               True                    NaN
+speck3264     1               spectral              6        107            26081000  85.183184                1               True                    NaN
+speck3264     2            autond_bias              5        102            23652000  43.054124                1               True                    NaN
+speck3264     2 spectral_deg1_ablation              6        135            28331000  79.070545                1               True                    NaN
+speck3264     2               spectral              6        116            26097000  68.102285                1               True                    NaN
+speck3264     3            autond_bias              5        100            23849000  48.371067                1               True                    NaN
+speck3264     3 spectral_deg1_ablation              6        126            26549000  76.728625                1               True                    NaN
+speck3264     3               spectral              6        112            26768000  88.981172                1               True                    NaN
+simon3264     1            autond_bias              7        108            31162000  63.924646                1                NaN                    2.0
+simon3264     1 spectral_deg1_ablation              8        121            36762000 138.011981                1                NaN                    1.0
+simon3264     1               spectral              8        137            37482000 153.214537                1                NaN                    1.0
+simon3264     2            autond_bias              7        103            30776000  76.622369                1                NaN                    2.0
+simon3264     2 spectral_deg1_ablation              9        154            41641000 162.740667                1                NaN                    5.0
+simon3264     2               spectral              8        135            37552000 120.153405                1                NaN                    2.0
+simon3264     3            autond_bias              7        111            30928000  74.457355                1                NaN                    2.0
+simon3264     3 spectral_deg1_ablation              8        130            37071000 155.446677                1                NaN                    2.0
+simon3264     3               spectral              8        136            37952000 149.061495                1                NaN                    2.0

@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-11-14T11:18:49.850651+00:00",
+  "argv": [
+    "experiments/phase4_validate_scorer.py"
+  ],
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "tensorflow": "2.15.1",
+    "tensorflow-intel": "2.15.1",
+    "keras": "2.15.0"
+  },
+  "hardware": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "cpu_count": 22
+  },
+  "autond_commit": "8d66e0a43a9e6fbbb3624d68296c1b77aa2da779",
+  "autond_pinned_commit": "8d66e0a43a9e6fbbb3624d68296c1b77aa2da779",
+  "autond_worktree_clean": false,
+  "project_source_sha256": "46122d3723601b669be70a754a4bb2c5efe06e6bd4fa2b341b972dc0caf3ee02",
+  "config": {
+    "name": "simon32_demo",
+    "description": "Small, CPU-friendly settings mirroring AutoND's repository demo (5 generations, 1e3 samples, T=0.05). For smoke runs and development only.",
+    "cipher": "simon3264",
+    "scenario": "single-key",
+    "seed": 20261114,
+    "reference_difference": "0x400",
+    "pool": {
+      "num_generations": 5,
+      "nb_samples": 1000,
+      "threshold": 0.05
+    },
+    "scoring": {
+      "k": 8,
+      "t_fixed": 1000,
+      "t_reference": 20000,
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "adaptive": {
+        "t0": 100,
+        "growth": 2.0,
+        "t_max": 1000,
+        "interval": "bias_bounded",
+        "alpha": 0.01,
+        "n_boot": 200,
+        "tol": 0.05,
+        "accept_clear": true
+      },
+      "budget_fractions": [
+        0.125,
+        0.25,
+        0.5,
+        1.0
+      ]
+    },
+    "variability": {
+      "t_values": [
+        100,
+        300,
+        1000,
+        3000
+      ],
+      "reps": 5
+    },
+    "neural": {
+      "target_round": 8,
+      "start_round": 6,
+      "epochs": 5,
+      "n_train": 1000000,
+      "n_select": 100000,
+      "n_test": 1000000,
+      "n_test_sets": 5,
+      "seeds": [
+        11,
+        12,
+        13
+      ],
+      "test_seed": 990001,
+      "correlation_candidates": 12
+    },
+    "_config_path": "C:\\Users\\rk100\\crypto\\experiments\\configs\\simon32_demo.json"
+  }
+}

@@ -1,0 +1,26 @@
+{'cipher': 'speck3264', 'seed': 1, 'method': 'autond_bias', 'highest_round': 5, 'pool_size': 104, 'search_encryptions': 24816000, 'seconds': 43.34106500000007, 'rank_known_best': 1, 'top5': '0x400000 0x408000 0x102000 0x200000 0x600000'}
+{'cipher': 'speck3264', 'seed': 1, 'method': 'spectral', 'highest_round': 6, 'pool_size': 107, 'search_encryptions': 26081000, 'seconds': 74.64970500000004, 'rank_known_best': 1, 'top5': '0x400000 0x102000 0x302000 0x702000 0x502000'}
+{'cipher': 'speck3264', 'seed': 2, 'method': 'autond_bias', 'highest_round': 5, 'pool_size': 102, 'search_encryptions': 23652000, 'seconds': 36.678352500000074, 'rank_known_best': 1, 'top5': '0x400000 0x408000 0x102000 0x200000 0x600000'}
+{'cipher': 'speck3264', 'seed': 2, 'method': 'spectral', 'highest_round': 6, 'pool_size': 116, 'search_encryptions': 26097000, 'seconds': 59.14182519999986, 'rank_known_best': 1, 'top5': '0x400000 0x102000 0x302000 0x702000 0x502000'}
+{'cipher': 'speck3264', 'seed': 3, 'method': 'autond_bias', 'highest_round': 5, 'pool_size': 100, 'search_encryptions': 23849000, 'seconds': 33.4858135999998, 'rank_known_best': 1, 'top5': '0x400000 0x408000 0x102000 0x600000 0x200000'}
+{'cipher': 'speck3264', 'seed': 3, 'method': 'spectral', 'highest_round': 6, 'pool_size': 112, 'search_encryptions': 26768000, 'seconds': 61.96874509999998, 'rank_known_best': 1, 'top5': '0x400000 0x102000 0x702000 0x302000 0x502000'}
+{'cipher': 'simon3264', 'seed': 1, 'method': 'autond_bias', 'highest_round': 7, 'pool_size': 108, 'search_encryptions': 31162000, 'seconds': 45.19561299999987, 'rank_known_best': 1, 'top5': '0x2000 0x8000 0x40 0x1 0x8', 'top16_distinct_orbits': 2}
+{'cipher': 'simon3264', 'seed': 1, 'method': 'spectral', 'highest_round': 8, 'pool_size': 137, 'search_encryptions': 37482000, 'seconds': 90.88549439999997, 'rank_known_best': 1, 'top5': '0x10 0x100 0x8000 0x4 0x2', 'top16_distinct_orbits': 1}
+{'cipher': 'simon3264', 'seed': 2, 'method': 'autond_bias', 'highest_round': 7, 'pool_size': 103, 'search_encryptions': 30776000, 'seconds': 43.731205300000056, 'rank_known_best': 1, 'top5': '0x2000 0x800 0x20 0x10 0x200', 'top16_distinct_orbits': 2}
+{'cipher': 'simon3264', 'seed': 2, 'method': 'spectral', 'highest_round': 8, 'pool_size': 135, 'search_encryptions': 37552000, 'seconds': 89.04936450000014, 'rank_known_best': 1, 'top5': '0x1 0x2 0x8 0x20 0x200', 'top16_distinct_orbits': 2}
+{'cipher': 'simon3264', 'seed': 3, 'method': 'autond_bias', 'highest_round': 7, 'pool_size': 111, 'search_encryptions': 30928000, 'seconds': 44.51831720000018, 'rank_known_best': 1, 'top5': '0x20 0x80 0x10 0x100 0x8', 'top16_distinct_orbits': 2}
+{'cipher': 'simon3264', 'seed': 3, 'method': 'spectral', 'highest_round': 8, 'pool_size': 136, 'search_encryptions': 37952000, 'seconds': 90.046065, 'rank_known_best': 1, 'top5': '0x2 0x80 0x200 0x40 0x1000', 'top16_distinct_orbits': 2}
+   cipher  seed      method  highest_round  pool_size  search_encryptions   seconds  rank_known_best  top16_distinct_orbits
+speck3264     1 autond_bias              5        104            24816000 43.341065                1                    NaN
+speck3264     1    spectral              6        107            26081000 74.649705                1                    NaN
+speck3264     2 autond_bias              5        102            23652000 36.678353                1                    NaN
+speck3264     2    spectral              6        116            26097000 59.141825                1                    NaN
+speck3264     3 autond_bias              5        100            23849000 33.485814                1                    NaN
+speck3264     3    spectral              6        112            26768000 61.968745                1                    NaN
+simon3264     1 autond_bias              7        108            31162000 45.195613                1                    2.0
+simon3264     1    spectral              8        137            37482000 90.885494                1                    1.0
+simon3264     2 autond_bias              7        103            30776000 43.731205                1                    2.0
+simon3264     2    spectral              8        135            37552000 89.049365                1                    2.0
+simon3264     3 autond_bias              7        111            30928000 44.518317                1                    2.0
+simon3264     3    spectral              8        136            37952000 90.046065                1                    2.0
+exit 0

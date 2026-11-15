@@ -1,0 +1,65 @@
+{
+  "tested": {
+    "0x10406": [
+      {
+        "test_seed": 990001,
+        "sets": [
+          {
+            "acc": 0.512,
+            "tpr": 0.7673019057171514,
+            "tnr": 0.25822532402791626,
+            "balanced_acc": 0.5127636148725339,
+            "advantage": 0.02400000000000002,
+            "acc_ci95": [
+              0.49009123973919283,
+              0.5338627511253327
+            ],
+            "n": 2000
+          }
+        ],
+        "acc_mean": 0.512,
+        "acc_std": 0.0,
+        "advantage_mean": 0.02400000000000002
+      }
+    ]
+  },
+  "rows": [
+    {
+      "policy": "A_fixed",
+      "scoring_seed": 1,
+      "finalist": "0x10406",
+      "test_acc_mean_over_neural_seeds": 0.512,
+      "ci95_lo": NaN,
+      "ci95_hi": NaN,
+      "advantage": 0.02400000000000002
+    },
+    {
+      "policy": "B_adaptive",
+      "scoring_seed": 1,
+      "finalist": "0x10406",
+      "test_acc_mean_over_neural_seeds": 0.512,
+      "ci95_lo": NaN,
+      "ci95_hi": NaN,
+      "advantage": 0.02400000000000002
+    },
+    {
+      "policy": "C_uniform_matched",
+      "scoring_seed": 1,
+      "finalist": "0x10406",
+      "test_acc_mean_over_neural_seeds": 0.512,
+      "ci95_lo": NaN,
+      "ci95_hi": NaN,
+      "advantage": 0.02400000000000002
+    },
+    {
+      "policy": "C2_successive_halving",
+      "scoring_seed": 1,
+      "finalist": "0x10406",
+      "test_acc_mean_over_neural_seeds": 0.512,
+      "ci95_lo": NaN,
+      "ci95_hi": NaN,
+      "advantage": 0.02400000000000002
+    }
+  ],
+  "force_rerun": false
+}

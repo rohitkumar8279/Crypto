@@ -1,0 +1,9 @@
+policy,budget_fraction,regret_mean,regret_sd,eps_close_precision,topk_overlap_ref,encryptions_mean,n
+A_fixed,0.5,0.0,,0.5,1.0,69000.0,1
+A_fixed,1.0,0.0,,0.5,1.0,138000.0,1
+B_adaptive,0.5,0.0,,0.5,1.0,68810.0,1
+B_adaptive,1.0,0.0,,0.5,1.0,90500.0,1
+C2_successive_halving,0.5,0.0,,0.5,1.0,68920.0,1
+C2_successive_halving,1.0,0.0,,0.5,1.0,70000.0,1
+C_uniform_matched,0.5,0.0064412012676881535,,0.5,0.75,68310.0,1
+C_uniform_matched,1.0,0.0,,0.5,1.0,90390.0,1

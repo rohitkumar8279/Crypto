@@ -1,0 +1,26 @@
+{
+  "cipher": "speck3264",
+  "args": {
+    "cipher": "speck3264",
+    "seed": 20261116,
+    "t": 2000,
+    "max_round": 7,
+    "n_select": 4,
+    "generations": 1,
+    "out": "e1_smoke"
+  },
+  "autond_highest_round": 3,
+  "weighted_rounds": [
+    1,
+    2,
+    3
+  ],
+  "spectral_round": 4,
+  "selected": [
+    "0x400000",
+    "0x102000",
+    "0x900c8900",
+    "0x8f468002"
+  ],
+  "selection_rule": "k top-AutoND, k top-spectral(next round), k largest rank disagreement, rest random"
+}

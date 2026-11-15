@@ -1,0 +1,73 @@
+{
+  "checks": {
+    "autond_import_testvector_assert": "passed (assert executed on import)",
+    "published_test_vector": {
+      "reference": true,
+      "autond": true,
+      "key": [
+        "0x1918",
+        "0x1110",
+        "0x908",
+        "0x100"
+      ],
+      "plaintext": [
+        "0x6565",
+        "0x6877"
+      ],
+      "ciphertext": [
+        "0xc69b",
+        "0xe9bb"
+      ]
+    },
+    "random_crosscheck": {
+      "rounds": "1..32",
+      "samples_per_round": 300,
+      "mismatches": 0
+    },
+    "labels_round1": {
+      "real_pairs_matching": 1.0,
+      "random_pairs_matching": 0.0,
+      "label_balance": 0.49705,
+      "note": "negative class = uniformly random 64-bit strings (AutoND main.make_train_data)"
+    },
+    "score_equivalence_max_abs_diff": 0.0,
+    "random_baseline_bias_score": {
+      "1000": {
+        "mean": 0.01263025000000001,
+        "std": 0.001716918278486196,
+        "max": 0.018593750000000013,
+        "theory_mean_sqrt(1/(2 pi t))": 0.012615662610100801
+      },
+      "10000": {
+        "mean": 0.0040028437499999995,
+        "std": 0.0005439253659381381,
+        "max": 0.005674999999999998,
+        "theory_mean_sqrt(1/(2 pi t))": 0.003989422804014327
+      }
+    }
+  },
+  "autond_commit": "8d66e0a43a9e6fbbb3624d68296c1b77aa2da779",
+  "smoke_pool": {
+    "highest_round": 7,
+    "rounds_scored": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "ledger": {
+      "encryptions": 18999000,
+      "round_evaluations": 80574000
+    },
+    "seconds": 9.514235799999824,
+    "pool_size": 116,
+    "reference_difference_in_pool": true
+  },
+  "tensorflow": {
+    "available": false,
+    "error": "ImportError: DLL load failed while importing _dtypes: An Application Control policy has blocked this file."
+  }
+}

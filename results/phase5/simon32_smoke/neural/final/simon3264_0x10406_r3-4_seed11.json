@@ -1,0 +1,76 @@
+{
+  "cipher": "simon3264",
+  "difference": "0x10406",
+  "start_round": 3,
+  "target_round": 4,
+  "seed": 11,
+  "epochs": 1,
+  "n_train": 5000,
+  "n_select": 2000,
+  "rounds": [
+    {
+      "round": 3,
+      "best_val_acc": 0.5109999775886536,
+      "history": {
+        "loss": [
+          0.305318683385849
+        ],
+        "acc": [
+          0.48579999804496765
+        ],
+        "val_loss": [
+          0.25736111402511597
+        ],
+        "val_acc": [
+          0.5109999775886536
+        ]
+      },
+      "train_seconds": 20.236988800000063,
+      "examples_seen": 5000
+    },
+    {
+      "round": 4,
+      "best_val_acc": 0.515500009059906,
+      "history": {
+        "loss": [
+          0.28057050704956055
+        ],
+        "acc": [
+          0.527999997138977
+        ],
+        "val_loss": [
+          0.2571162283420563
+        ],
+        "val_acc": [
+          0.515500009059906
+        ]
+      },
+      "train_seconds": 1.4940478000000894,
+      "examples_seen": 5000
+    }
+  ],
+  "selection_acc": 0.515500009059906,
+  "total_train_seconds": 21.78096699999992,
+  "total_examples_seen": 10000,
+  "gpus": [],
+  "test": {
+    "test_seed": 990001,
+    "sets": [
+      {
+        "acc": 0.512,
+        "tpr": 0.7673019057171514,
+        "tnr": 0.25822532402791626,
+        "balanced_acc": 0.5127636148725339,
+        "advantage": 0.02400000000000002,
+        "acc_ci95": [
+          0.49009123973919283,
+          0.5338627511253327
+        ],
+        "n": 2000
+      }
+    ],
+    "acc_mean": 0.512,
+    "acc_std": 0.0,
+    "advantage_mean": 0.02400000000000002
+  }
+}

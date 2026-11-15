@@ -1,0 +1,22 @@
+{
+  "name": "simon32_demo",
+  "description": "Small, CPU-friendly settings mirroring AutoND's repository demo (5 generations, 1e3 samples, T=0.05). For smoke runs and development only.",
+  "cipher": "simon3264",
+  "scenario": "single-key",
+  "seed": 20261114,
+  "reference_difference": "0x400",
+  "pool": {"num_generations": 5, "nb_samples": 1000, "threshold": 0.05},
+  "scoring": {
+    "k": 8,
+    "t_fixed": 1000,
+    "t_reference": 20000,
+    "seeds": [1, 2, 3],
+    "adaptive": {"t0": 100, "growth": 2.0, "t_max": 1000, "interval": "bias_bounded", "alpha": 0.01,
+                 "n_boot": 200, "tol": 0.05, "accept_clear": true},
+    "budget_fractions": [0.125, 0.25, 0.5, 1.0]
+  },
+  "variability": {"t_values": [100, 300, 1000, 3000], "reps": 5},
+  "neural": {"target_round": 8, "start_round": 6, "epochs": 5, "n_train": 1000000, "n_select": 100000,
+             "n_test": 1000000, "n_test_sets": 5, "seeds": [11, 12, 13], "test_seed": 990001,
+             "correlation_candidates": 12}
+}

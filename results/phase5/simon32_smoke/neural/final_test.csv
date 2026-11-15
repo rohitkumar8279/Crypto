@@ -1,0 +1,5 @@
+policy,scoring_seed,finalist,test_acc_mean_over_neural_seeds,ci95_lo,ci95_hi,advantage
+A_fixed,1,0x10406,0.512,,,0.02400000000000002
+B_adaptive,1,0x10406,0.512,,,0.02400000000000002
+C_uniform_matched,1,0x10406,0.512,,,0.02400000000000002
+C2_successive_halving,1,0x10406,0.512,,,0.02400000000000002

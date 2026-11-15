@@ -1,0 +1,72 @@
+{
+  "checks": {
+    "autond_import_testvector_assert": "passed (assert executed on import)",
+    "published_test_vector": {
+      "reference": true,
+      "autond": true,
+      "key": [
+        "0x1918",
+        "0x1110",
+        "0x908",
+        "0x100"
+      ],
+      "plaintext": [
+        "0x6565",
+        "0x6877"
+      ],
+      "ciphertext": [
+        "0xc69b",
+        "0xe9bb"
+      ]
+    },
+    "random_crosscheck": {
+      "rounds": "1..32",
+      "samples_per_round": 300,
+      "mismatches": 0
+    },
+    "labels_round1": {
+      "real_pairs_matching": 1.0,
+      "random_pairs_matching": 0.0,
+      "label_balance": 0.4984,
+      "note": "negative class = uniformly random 64-bit strings (AutoND main.make_train_data)"
+    },
+    "score_equivalence_max_abs_diff": 0.0,
+    "random_baseline_bias_score": {
+      "1000": {
+        "mean": 0.01266740625000001,
+        "std": 0.0016807938365244086,
+        "max": 0.020218750000000014,
+        "theory_mean_sqrt(1/(2 pi t))": 0.012615662610100801
+      },
+      "10000": {
+        "mean": 0.003978068749999999,
+        "std": 0.0005403420292321223,
+        "max": 0.005600000000000001,
+        "theory_mean_sqrt(1/(2 pi t))": 0.003989422804014327
+      }
+    }
+  },
+  "autond_commit": "8d66e0a43a9e6fbbb3624d68296c1b77aa2da779",
+  "smoke_pool": {
+    "highest_round": 5,
+    "rounds_scored": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "ledger": {
+      "encryptions": 1248900,
+      "round_evaluations": 3626100
+    },
+    "seconds": 2.052312499999971,
+    "pool_size": 137,
+    "reference_difference_in_pool": false
+  },
+  "tensorflow": {
+    "available": true,
+    "version": "2.15.1",
+    "devices": "['/physical_device:CPU:0']"
+  }
+}

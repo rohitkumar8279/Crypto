@@ -1,0 +1,5 @@
+cipher,difference,t,nd_reach_paper,depth_autond_bias,depth_chi2_deg1,depth_chi2_deg12
+simon3264,0x400,2000,11.0,4,4,4
+simon3264,0x8000,2000,,4,4,4
+speck3264,0x102000,2000,,4,4,4
+speck3264,0x400000,2000,8.0,4,4,4

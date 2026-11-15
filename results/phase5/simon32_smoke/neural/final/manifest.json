@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-11-15T10:16:37.682398+00:00",
+  "argv": [
+    "experiments/phase5_neural_eval.py",
+    "--config",
+    "experiments/configs/simon32_smoke.json",
+    "--stage",
+    "final"
+  ],
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "tensorflow": "2.15.1",
+    "tensorflow-intel": "2.15.1",
+    "keras": "2.15.0"
+  },
+  "hardware": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "cpu_count": 22,
+    "tf_devices": [
+      "/physical_device:CPU:0"
+    ],
+    "gpu_details": []
+  },
+  "autond_commit": "8d66e0a43a9e6fbbb3624d68296c1b77aa2da779",
+  "autond_pinned_commit": "8d66e0a43a9e6fbbb3624d68296c1b77aa2da779",
+  "autond_worktree_clean": true,
+  "project_source_sha256": "68ca2d243eabe2dd79801b9e19ab3d1ab52bccd013732a65229551865e5d151a",
+  "config": {
+    "name": "simon32_smoke",
+    "description": "Tiny settings for end-to-end smoke tests of every script (scripts/smoke_all.sh). Results are meaningless; outputs go to results/*/simon32_smoke.",
+    "cipher": "simon3264",
+    "scenario": "single-key",
+    "seed": 7,
+    "reference_difference": "0x400",
+    "pool": {
+      "num_generations": 1,
+      "nb_samples": 300,
+      "threshold": 0.08
+    },
+    "scoring": {
+      "k": 4,
+      "t_fixed": 200,
+      "t_reference": 1000,
+      "seeds": [
+        1
+      ],
+      "adaptive": {
+        "t0": 50,
+        "growth": 2.0,
+        "t_max": 200,
+        "interval": "bias_bounded",
+        "alpha": 0.01,
+        "n_boot": 50,
+        "tol": 0.05,
+        "accept_clear": true
+      },
+      "budget_fractions": [
+        0.5,
+        1.0
+      ]
+    },
+    "variability": {
+      "t_values": [
+        50,
+        100
+      ],
+      "reps": 2
+    },
+    "neural": {
+      "target_round": 4,
+      "start_round": 3,
+      "epochs": 1,
+      "n_train": 5000,
+      "n_select": 2000,
+      "n_test": 2000,
+      "n_test_sets": 1,
+      "seeds": [
+        11
+      ],
+      "test_seed": 990001,
+      "correlation_candidates": 3
+    },
+    "_config_path": "C:\\Users\\rk100\\crypto\\experiments\\configs\\simon32_smoke.json"
+  }
+}

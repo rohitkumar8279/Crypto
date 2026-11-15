@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2026-11-15T10:20:27.992357+00:00",
+  "argv": [
+    "experiments\\novel_e3_search.py",
+    "--seeds",
+    "1",
+    "2",
+    "3",
+    "--generations",
+    "10"
+  ],
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "tensorflow": "2.15.1",
+    "tensorflow-intel": "2.15.1",
+    "keras": "2.15.0"
+  },
+  "hardware": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "cpu_count": 22
+  },
+  "autond_commit": "8d66e0a43a9e6fbbb3624d68296c1b77aa2da779",
+  "autond_pinned_commit": "8d66e0a43a9e6fbbb3624d68296c1b77aa2da779",
+  "autond_worktree_clean": true,
+  "project_source_sha256": "68ca2d243eabe2dd79801b9e19ab3d1ab52bccd013732a65229551865e5d151a",
+  "config": {
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "generations": 10,
+    "t": 1000,
+    "out": "e3_search_with_ablation"
+  }
+}

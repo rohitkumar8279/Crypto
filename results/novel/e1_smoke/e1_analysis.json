@@ -1,0 +1,121 @@
+{
+  "n_candidates": 4,
+  "round_6": {
+    "autond_weighted": {
+      "spearman": 0.39999999999999997,
+      "ci95": [
+        -0.7777777777777779,
+        1.0
+      ],
+      "minus_autond_weighted_ci95": null
+    },
+    "autond_bias_r6": {
+      "spearman": 0.39999999999999997,
+      "ci95": [
+        -0.7777777777777779,
+        1.0
+      ],
+      "minus_autond_weighted_ci95": [
+        -1.1111111111111114,
+        1.1111111111111114
+      ]
+    },
+    "cap12_r6": {
+      "spearman": 0.7999999999999999,
+      "ci95": [
+        0.3333333333333334,
+        1.0
+      ],
+      "minus_autond_weighted_ci95": [
+        0.0,
+        1.1111111111111114
+      ]
+    },
+    "max_abs_corr_r6": {
+      "spearman": 0.7999999999999999,
+      "ci95": [
+        0.3333333333333334,
+        1.0
+      ],
+      "minus_autond_weighted_ci95": [
+        0.0,
+        1.1111111111111114
+      ]
+    },
+    "certified_bound_violations": [
+      "0x102000",
+      "0x400000"
+    ],
+    "top_by_autond": {
+      "difference": "0x400000",
+      "test_acc": 0.51425
+    },
+    "top_by_spectral": {
+      "difference": "0x400000",
+      "test_acc": 0.51425
+    },
+    "best_trained": {
+      "difference": "0x400000",
+      "test_acc": 0.51425
+    }
+  },
+  "round_7": {
+    "autond_weighted": {
+      "spearman": -0.39999999999999997,
+      "ci95": [
+        -1.0,
+        0.7777777777777779
+      ],
+      "minus_autond_weighted_ci95": null
+    },
+    "autond_bias_r7": {
+      "spearman": 0.39999999999999997,
+      "ci95": [
+        -0.7777777777777779,
+        1.0
+      ],
+      "minus_autond_weighted_ci95": [
+        0.0,
+        1.777777777777778
+      ]
+    },
+    "cap12_r7": {
+      "spearman": 0.39999999999999997,
+      "ci95": [
+        -0.7777777777777779,
+        1.0
+      ],
+      "minus_autond_weighted_ci95": [
+        0.0,
+        1.777777777777778
+      ]
+    },
+    "max_abs_corr_r7": {
+      "spearman": -0.19999999999999998,
+      "ci95": [
+        -0.7777777777777779,
+        1.0
+      ],
+      "minus_autond_weighted_ci95": [
+        -1.1111111111111114,
+        1.777777777777778
+      ]
+    },
+    "certified_bound_violations": [
+      "0x400000"
+    ],
+    "top_by_autond": {
+      "difference": "0x400000",
+      "test_acc": 0.4995
+    },
+    "top_by_spectral": {
+      "difference": "0x900c8900",
+      "test_acc": 0.51725
+    },
+    "best_trained": {
+      "difference": "0x900c8900",
+      "test_acc": 0.51725
+    }
+  },
+  "training_noise": []
+}

@@ -1,0 +1,48 @@
+{
+  "n": 3,
+  "target_round": 4,
+  "correlations": {
+    "weighted_score": {
+      "spearman": 0.5,
+      "ci95": [
+        0.5,
+        0.5
+      ]
+    },
+    "score_r1": {
+      "spearman": 0.0,
+      "ci95": [
+        NaN,
+        NaN
+      ]
+    },
+    "score_r2": {
+      "spearman": 0.5,
+      "ci95": [
+        0.5,
+        0.5
+      ]
+    },
+    "score_r3": {
+      "spearman": 0.5,
+      "ci95": [
+        0.5,
+        0.5
+      ]
+    },
+    "score_r4": {
+      "spearman": 0.5,
+      "ci95": [
+        0.5,
+        0.5
+      ]
+    },
+    "score_r5": {
+      "spearman": 0.5,
+      "ci95": [
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

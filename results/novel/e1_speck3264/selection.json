@@ -1,0 +1,47 @@
+{
+  "cipher": "speck3264",
+  "args": {
+    "cipher": "speck3264",
+    "seed": 20261116,
+    "t": 50000,
+    "max_round": 8,
+    "n_select": 24,
+    "generations": 10
+  },
+  "autond_highest_round": 5,
+  "weighted_rounds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "spectral_round": 6,
+  "selected": [
+    "0x400000",
+    "0x408000",
+    "0x102000",
+    "0x600000",
+    "0x200000",
+    "0x8000",
+    "0x702000",
+    "0x302000",
+    "0x502000",
+    "0x1408000",
+    "0x81000",
+    "0x181000",
+    "0x2000",
+    "0x80",
+    "0x683000",
+    "0x81408100",
+    "0xe04000",
+    "0x40008080",
+    "0x60c000",
+    "0x700000",
+    "0x593001",
+    "0x9f00823",
+    "0x404000",
+    "0x3408000"
+  ],
+  "selection_rule": "k top-AutoND, k top-spectral(next round), k largest rank disagreement, rest random"
+}

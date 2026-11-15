@@ -1,0 +1,67 @@
+{
+  "k": 4,
+  "pool_size": 137,
+  "rounds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "reference_topk": [
+    "0x4004",
+    "0xc080",
+    "0x10406",
+    "0x8106"
+  ],
+  "shortlists": {
+    "A_fixed|seed=1|frac=1.0": [
+      "0x4004",
+      "0xc080",
+      "0x10406",
+      "0x8106"
+    ],
+    "B_adaptive|seed=1|frac=0.5": [
+      "0x4004",
+      "0xc080",
+      "0x10406",
+      "0x8106"
+    ],
+    "A_fixed|seed=1|frac=0.5": [
+      "0x4004",
+      "0xc080",
+      "0x10406",
+      "0x8106"
+    ],
+    "C_uniform_matched|seed=1|frac=0.5": [
+      "0x4004",
+      "0xc080",
+      "0x10406",
+      "0x11002"
+    ],
+    "C2_successive_halving|seed=1|frac=0.5": [
+      "0x4004",
+      "0xc080",
+      "0x10406",
+      "0x8106"
+    ],
+    "B_adaptive|seed=1|frac=1.0": [
+      "0x4004",
+      "0xc080",
+      "0x10406",
+      "0x8106"
+    ],
+    "C_uniform_matched|seed=1|frac=1.0": [
+      "0x4004",
+      "0xc080",
+      "0x10406",
+      "0x8106"
+    ],
+    "C2_successive_halving|seed=1|frac=1.0": [
+      "0x4004",
+      "0xc080",
+      "0x10406",
+      "0x8106"
+    ]
+  }
+}

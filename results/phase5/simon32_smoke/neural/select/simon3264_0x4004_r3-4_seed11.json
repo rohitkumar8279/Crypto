@@ -1,0 +1,56 @@
+{
+  "cipher": "simon3264",
+  "difference": "0x4004",
+  "start_round": 3,
+  "target_round": 4,
+  "seed": 11,
+  "epochs": 1,
+  "n_train": 5000,
+  "n_select": 2000,
+  "rounds": [
+    {
+      "round": 3,
+      "best_val_acc": 0.5149999856948853,
+      "history": {
+        "loss": [
+          0.2913929522037506
+        ],
+        "acc": [
+          0.5054000020027161
+        ],
+        "val_loss": [
+          0.2568493187427521
+        ],
+        "val_acc": [
+          0.5149999856948853
+        ]
+      },
+      "train_seconds": 18.158341300000075,
+      "examples_seen": 5000
+    },
+    {
+      "round": 4,
+      "best_val_acc": 0.5055000185966492,
+      "history": {
+        "loss": [
+          0.28865084052085876
+        ],
+        "acc": [
+          0.5085999965667725
+        ],
+        "val_loss": [
+          0.2574526071548462
+        ],
+        "val_acc": [
+          0.5055000185966492
+        ]
+      },
+      "train_seconds": 1.8227032000000918,
+      "examples_seen": 5000
+    }
+  ],
+  "selection_acc": 0.5055000185966492,
+  "total_train_seconds": 20.01787349999995,
+  "total_examples_seen": 10000,
+  "gpus": []
+}

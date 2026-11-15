@@ -1,0 +1,48 @@
+{
+  "args": {
+    "t": 2000,
+    "reps": 1,
+    "alpha": 0.01,
+    "seed": 20261115,
+    "out": "e2_smoke",
+    "max_rounds": 4
+  },
+  "summary": [
+    {
+      "cipher": "simon3264",
+      "difference": "0x400",
+      "t": 2000,
+      "nd_reach_paper": 11,
+      "depth_autond_bias": "4",
+      "depth_chi2_deg1": "4",
+      "depth_chi2_deg12": "4"
+    },
+    {
+      "cipher": "simon3264",
+      "difference": "0x8000",
+      "t": 2000,
+      "nd_reach_paper": null,
+      "depth_autond_bias": "4",
+      "depth_chi2_deg1": "4",
+      "depth_chi2_deg12": "4"
+    },
+    {
+      "cipher": "speck3264",
+      "difference": "0x102000",
+      "t": 2000,
+      "nd_reach_paper": null,
+      "depth_autond_bias": "4",
+      "depth_chi2_deg1": "4",
+      "depth_chi2_deg12": "4"
+    },
+    {
+      "cipher": "speck3264",
+      "difference": "0x400000",
+      "t": 2000,
+      "nd_reach_paper": 8,
+      "depth_autond_bias": "4",
+      "depth_chi2_deg1": "4",
+      "depth_chi2_deg12": "4"
+    }
+  ]
+}

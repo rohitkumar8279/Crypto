@@ -1,0 +1,16 @@
+=== experiments/phase1_verify.py --config experiments/configs/simon32_smoke.json
+=== experiments/phase3_score_variability.py --config experiments/configs/simon32_smoke.json
+=== experiments/phase4_validate_scorer.py --config experiments/configs/simon32_smoke.json
+=== experiments/phase5_scoring_compare.py --config experiments/configs/simon32_smoke.json
+=== experiments/phase2_baseline.py --config experiments/configs/simon32_smoke.json --n-eval 2000
+=== experiments/phase3_neural_correlation.py --config experiments/configs/simon32_smoke.json
+=== experiments/phase5_neural_eval.py --config experiments/configs/simon32_smoke.json --stage select
+=== experiments/phase5_neural_eval.py --config experiments/configs/simon32_smoke.json --stage final
+=== experiments/novel_e2_detection_depth.py --t 2000 --reps 1 --max-rounds 4 --out e2_smoke
+=== experiments/novel_e3_search.py --seeds 1 --generations 1 --t 300 --out e3_smoke
+=== experiments/novel_e1_score_candidates.py --cipher speck3264 --t 2000 --max-round 7 --n-select 4 --generations 1 --out e1_smoke
+=== experiments/novel_e1_neural.py --cipher speck3264 train --smoke --out e1_smoke
+=== experiments/novel_e1_neural.py --cipher speck3264 analyse --out e1_smoke
+=== experiments/novel_e5_compare.py --seeds 1 --t-ref 2000 --t-fixed 500 --pool-dir e1_smoke --out e5_smoke
+ALL SMOKE TESTS PASSED
+exit 0

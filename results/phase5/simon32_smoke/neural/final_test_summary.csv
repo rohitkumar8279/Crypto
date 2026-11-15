@@ -1,0 +1,5 @@
+policy,mean,std,count
+A_fixed,0.512,,1
+B_adaptive,0.512,,1
+C2_successive_halving,0.512,,1
+C_uniform_matched,0.512,,1

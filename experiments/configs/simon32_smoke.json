@@ -1,0 +1,19 @@
+{
+  "name": "simon32_smoke",
+  "description": "Tiny settings for end-to-end smoke tests of every script (scripts/smoke_all.sh). Results are meaningless; outputs go to results/*/simon32_smoke.",
+  "cipher": "simon3264",
+  "scenario": "single-key",
+  "seed": 7,
+  "reference_difference": "0x400",
+  "pool": {"num_generations": 1, "nb_samples": 300, "threshold": 0.08},
+  "scoring": {
+    "k": 4, "t_fixed": 200, "t_reference": 1000, "seeds": [1],
+    "adaptive": {"t0": 50, "growth": 2.0, "t_max": 200, "interval": "bias_bounded", "alpha": 0.01,
+                 "n_boot": 50, "tol": 0.05, "accept_clear": true},
+    "budget_fractions": [0.5, 1.0]
+  },
+  "variability": {"t_values": [50, 100], "reps": 2},
+  "neural": {"target_round": 4, "start_round": 3, "epochs": 1, "n_train": 5000, "n_select": 2000,
+             "n_test": 2000, "n_test_sets": 1, "seeds": [11], "test_seed": 990001,
+             "correlation_candidates": 3}
+}

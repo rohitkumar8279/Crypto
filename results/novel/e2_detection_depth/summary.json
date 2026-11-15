@@ -1,0 +1,46 @@
+{
+  "args": {
+    "t": 100000,
+    "reps": 3,
+    "alpha": 0.01,
+    "seed": 20261115
+  },
+  "summary": [
+    {
+      "cipher": "simon3264",
+      "difference": "0x400",
+      "t": 100000,
+      "nd_reach_paper": 11,
+      "depth_autond_bias": "9",
+      "depth_chi2_deg1": "9",
+      "depth_chi2_deg12": "9-10"
+    },
+    {
+      "cipher": "simon3264",
+      "difference": "0x8000",
+      "t": 100000,
+      "nd_reach_paper": null,
+      "depth_autond_bias": "9",
+      "depth_chi2_deg1": "9",
+      "depth_chi2_deg12": "9-10"
+    },
+    {
+      "cipher": "speck3264",
+      "difference": "0x102000",
+      "t": 100000,
+      "nd_reach_paper": null,
+      "depth_autond_bias": "6",
+      "depth_chi2_deg1": "6",
+      "depth_chi2_deg12": "7"
+    },
+    {
+      "cipher": "speck3264",
+      "difference": "0x400000",
+      "t": 100000,
+      "nd_reach_paper": 8,
+      "depth_autond_bias": "6",
+      "depth_chi2_deg1": "6",
+      "depth_chi2_deg12": "7"
+    }
+  ]
+}

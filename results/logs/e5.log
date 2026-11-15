@@ -1,0 +1,15 @@
+bias 1 {'A_fixed': (-0.0, 4900000), 'B_adaptive': (-0.0, 400000), 'C_uniform_matched': (0.0014, 399840), 'C2_successive_halving': (0.0014, 320000)}
+bias 2 {'A_fixed': (-0.0, 4900000), 'B_adaptive': (0.0, 402500), 'C_uniform_matched': (0.0, 402290), 'C2_successive_halving': (0.0, 320000)}
+bias 3 {'A_fixed': (0.0, 4900000), 'B_adaptive': (0.0038, 392500), 'C_uniform_matched': (0.0, 392490), 'C2_successive_halving': (0.003, 320000)}
+spectral 1 {'A_fixed': (0.0, 980000), 'B_adaptive': (0.0105, 260000), 'C_uniform_matched': (-0.0, 259994), 'C2_successive_halving': (0.0123, 64000)}
+spectral 2 {'A_fixed': (0.0, 980000), 'B_adaptive': (0.0, 279000), 'C_uniform_matched': (0.009, 278908), 'C2_successive_halving': (0.0235, 64000)}
+spectral 3 {'A_fixed': (0.0, 980000), 'B_adaptive': (0.0, 269000), 'C_uniform_matched': (0.0, 268912), 'C2_successive_halving': (0.009, 64000)}
+statistic                policy   regret_mean    regret_sd  overlap_mean  encryptions_mean  seconds_mean  n
+     bias               A_fixed -1.130611e-16 9.791380e-17      1.000000      4.900000e+06      8.286100  3
+     bias            B_adaptive  1.276674e-03 2.211265e-03      0.958333      3.983333e+05      2.683292  3
+     bias C2_successive_halving  1.471914e-03 1.502374e-03      0.916667      3.200000e+05      0.432576  3
+     bias     C_uniform_matched  4.709138e-04 8.156466e-04      0.958333      3.982067e+05      0.520353  3
+ spectral               A_fixed  0.000000e+00 0.000000e+00      1.000000      9.800000e+05      3.336108  3
+ spectral            B_adaptive  3.511464e-03 6.082034e-03      0.958333      2.693333e+05      3.493676  3
+ spectral C2_successive_halving  1.493388e-02 7.565061e-03      0.833333      6.400000e+04      0.836881  3
+ spectral     C_uniform_matched  3.007641e-03 5.209387e-03      0.958333      2.692713e+05      1.354683  3

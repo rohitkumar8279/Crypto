@@ -1,0 +1,22 @@
+{
+  "name": "simon32_main",
+  "description": "Main comparison settings (DRAFT -- finalise in docs/preregistration.md after Phase 3 profiling, before Phase 5). Pool search uses the paper's values (50 generations, 1e4 samples, T=0.01).",
+  "cipher": "simon3264",
+  "scenario": "single-key",
+  "seed": 20261201,
+  "reference_difference": "0x400",
+  "pool": {"num_generations": 50, "nb_samples": 10000, "threshold": 0.01},
+  "scoring": {
+    "k": 16,
+    "t_fixed": 10000,
+    "t_reference": 200000,
+    "seeds": [1, 2, 3, 4, 5],
+    "adaptive": {"t0": 250, "growth": 2.0, "t_max": 10000, "interval": "bias_bounded", "alpha": 0.01,
+                 "n_boot": 200, "tol": 0.05, "accept_clear": true},
+    "budget_fractions": [0.0625, 0.125, 0.25, 0.5, 1.0]
+  },
+  "variability": {"t_values": [250, 1000, 4000, 10000], "reps": 10},
+  "neural": {"target_round": 10, "start_round": 8, "epochs": 10, "n_train": 10000000, "n_select": 1000000,
+             "n_test": 1000000, "n_test_sets": 5, "seeds": [11, 12, 13, 14, 15], "test_seed": 990001,
+             "correlation_candidates": 24}
+}

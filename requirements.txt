@@ -1,0 +1,8 @@
+# Python 3.9-3.11 (TensorFlow 2.15 has no wheels for 3.12+).
+# AutoND states its code is incompatible with TensorFlow 2.16 (Keras 3).
+tensorflow==2.15.1        # Linux GPU: install "tensorflow[and-cuda]==2.15.1" instead
+numpy<2
+scipy
+pandas
+matplotlib
+pytest

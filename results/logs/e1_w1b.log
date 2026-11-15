@@ -1,0 +1,48 @@
+[1/24] 0x400000
+[2/24] 0x408000
+[3/24] 0x102000
+[4/24] 0x600000
+[5/24] 0x200000
+[6/24] 0x8000
+[7/24] 0x702000
+[8/24] 0x302000
+[9/24] 0x502000
+  0x502000 seed 1 round 5: val 0.8199
+  0x502000 seed 1 round 6: val 0.6389 test 0.6346
+  0x502000 seed 1 round 7: val 0.5084 test 0.5083
+[10/24] 0x1408000
+  0x1408000 seed 1 round 5: val 0.6821
+  0x1408000 seed 1 round 6: val 0.5924 test 0.5911
+  0x1408000 seed 1 round 7: val 0.5042 test 0.5073
+[11/24] 0x81000
+  0x81000 seed 1 round 5: val 0.7191
+  0x81000 seed 1 round 6: val 0.6226 test 0.6181
+  0x81000 seed 1 round 7: val 0.5177 test 0.5126
+[12/24] 0x181000
+  0x181000 seed 1 round 5: val 0.5982
+  0x181000 seed 1 round 6: val 0.5199 test 0.5167
+  0x181000 seed 1 round 7: val 0.5015 test 0.5012
+[13/24] 0x2000
+  0x2000 seed 1 round 5: val 0.5040
+  0x2000 seed 1 round 6: val 0.5026 test 0.4991
+  0x2000 seed 1 round 7: val 0.5036 test 0.4997
+[14/24] 0x80
+  0x80 seed 1 round 5: val 0.5302
+  0x80 seed 1 round 6: val 0.4999 test 0.5010
+  0x80 seed 1 round 7: val 0.5036 test 0.5013
+[15/24] 0x683000
+[16/24] 0x81408100
+[17/24] 0xe04000
+[18/24] 0x40008080
+[19/24] 0x60c000
+[20/24] 0x700000
+[21/24] 0x593001
+[22/24] 0x9f00823
+[23/24] 0x404000
+[24/24] 0x3408000
+  0x400000 seed 2 round 5: val 0.8703
+  0x400000 seed 2 round 6: val 0.6854 test 0.6867
+  0x400000 seed 2 round 7: val 0.5168 test 0.5136
+  0x102000 seed 2 round 5: val 0.8509
+  0x102000 seed 2 round 6: val 0.6827 test 0.6816
+  0x102000 seed 2 round 7: val 0.5204 test 0.5205

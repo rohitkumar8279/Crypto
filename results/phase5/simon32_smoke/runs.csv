@@ -1,0 +1,9 @@
+policy,seed,budget_fraction,seconds,stop_reason,t_per_round,regret,topk_overlap_ref,eps_close_precision,encryptions,round_evaluations,matched_to_B_encryptions
+A_fixed,1,1.0,0.10178689999997914,,200.0,0.0,1.0,0.5,138000,414000,
+B_adaptive,1,0.5,1.534686699999952,budget,,0.0,1.0,0.5,68810,206430,
+A_fixed,1,0.5,0.055721000000062304,,100.0,0.0,1.0,0.5,69000,207000,
+C_uniform_matched,1,0.5,0.05915620000007493,,99.0,0.0064412012676881535,0.75,0.5,68310,204930,68810.0
+C2_successive_halving,1,0.5,0.05692990000000009,t_max,,0.0,1.0,0.5,68920,206760,
+B_adaptive,1,1.0,0.3921658000000434,t_max,,0.0,1.0,0.5,90500,271500,
+C_uniform_matched,1,1.0,0.19201439999994818,,131.0,0.0,1.0,0.5,90390,271170,90500.0
+C2_successive_halving,1,1.0,0.1711096000000225,t_max,,0.0,1.0,0.5,70000,210000,
